@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stabpy"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
     {name = "Julia Konczal", email = "julia.konczal@pwr.edu.pl"},
     {name = "Michal Balcerek", email = "michal.balcerek@pwr.edu.pl"},
