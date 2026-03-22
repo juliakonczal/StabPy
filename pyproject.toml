@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stabpy"
+version = "0.1.0"
+authors = [
+    {name = "Julia Konczal", email = "julia.konczal@pwr.edu.pl"},
+    {name = "Michal Balcerek", email = "michal.balcerek@pwr.edu.pl"},
+    {name = "Krzysztof Burnecki", email = "krzysztof.burnecki@pwr.edu.pl"}
+]
+description = "Python tools for stable distributions, NIG, and FARIMA processes"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+keywords = ["stable distributions", "alpha-stable", "NIG", "FARIMA", "long memory", "fractional brownian motion"]
+
+dependencies = [
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "black",
+    "flake8",
+]
+
+[project.urls]
+Homepage = "https://github.com/juliakonczal/stabpy"
+Documentation = "https://github.com/juliakonczal/stabpy#readme"
+Repository = "https://github.com/juliakonczal/stabpy"
+"Bug Tracker" = "https://github.com/juliakonczal/stabpy/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["stabpy"]
