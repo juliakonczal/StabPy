@@ -226,4 +226,4 @@ J. Kończal (julia.konczal@pwr.edu.pl), M. Balcerek (michal.balcerek@pwr.edu.pl)
 
 
 ## Acknowledgments
-This package is based on MATLAB implementations developed at the Hugo Steinhaus Center, Wrocław University of Science and Technology, by M. Banys, S. Borak, K. Burnecki, B. Dybiec, M. Lach, A. Misiorek, S. Niedziela, G. Sikora, S. Stoev, S. Szymanski, M. Tempes, R. Werner, and R. Weron.
+This package is based on MATLAB implementations developed at the Hugo Steinhaus Center, Wrocław University of Science and Technology, by M. Banys, S. Borak, K. Burnecki, B. Dybiec, M. Lach, A. Misiorek, S. Niedziela, G. Sikora, S. Stoev, S. Szymanski, M. Tempes, R. Werner, and R. Weron. The work of JK and KB was supported by NCN Grant No. 2022/47/B/HS4/02139.
