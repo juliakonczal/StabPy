@@ -13,7 +13,7 @@ nig : Normal Inverse Gaussian distribution
 farima : FARIMA and fractional processes
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.3"
 
 # Import from stable module
 from .stable import (
